@@ -11,9 +11,10 @@ for (let i = 1; i <= limite; i++) {
     }
     retur
 return resultado;
+}
 
 
-
+}
 
 fu
 function gerarTabuada() {
@@ -30,8 +31,10 @@ const resultado = tabuada(Number(numero), Number(limite));
     
 document.getElementById('resultado').textContent = resultado;
     } 
-    } else
-{
+    } el
+else {
         
       
+document.getElementById('resultado').textContent = 'Por favor, preencha ambos os campos.';
+    }
 }
