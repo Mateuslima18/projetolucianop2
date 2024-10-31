@@ -37,3 +37,24 @@ border-radius:70%;
 margin-top: -100px;
 margin-left: 50px;
 }
+
+.pontaesq{
+height: 290px;
+width: 350px;
+margin-top: 150px;
+display: flex;
+justify-content:left;
+background-color: rgb(150, 150, 150);
+margin-left: 100px;
+}
+
+
+.center{
+height: 290px;
+width: 350px;
+margin-top: -290px;
+display: flex;
+justify-content:left;
+background-color: rgb(150, 150, 150);
+margin-left: 500px;
+}
