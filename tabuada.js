@@ -1,28 +1,37 @@
-function calcular(operacao) {
-    const num1 = parseFloat(document.getElementById('num1').value);
-    const num2 = parseFloat(document.getElementById('num2').value);
-    let resultado;
-
-    switch (operacao) {
-        case '+':
-            resultado = num1 + num2;
-            break;
-        case '-':
-            resultado = num1 - num2;
-            break;
-        case '*':
-            resultado = num1 * num2;
-            break;
-        case '/':
-            if (num2 !== 0) {
-                resultado = num1 / num2;
-            } else {
-                resultado = 'Erro: Divisão por zero';
-            }
-            break;
-        default:
-            resultado = 'Operação inválida';
+function tabuada(num, limite) {
+    let resultado = '';
+    
+    
+for (let i = 1; i <= limite; i++) {
+        resultado += 
+        resultado += 
+`${num} x ${i} = ${num * i}\n`;
     }
+    
+    }
+    retur
+return resultado;
 
-    document.getElementById('resultado').innerText = resultado;
+
+
+
+fu
+function gerarTabuada() {
+    const numero = document.getElementById('numero').value;
+    
+   
+const limite = document.getElementById('limite').value;
+
+    if (numero && limite) {
+        
+        con
+const resultado = tabuada(Number(numero), Number(limite));
+        
+    
+document.getElementById('resultado').textContent = resultado;
+    } 
+    } else
+{
+        
+      
 }
